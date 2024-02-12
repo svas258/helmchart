@@ -92,7 +92,7 @@ volumeMounts: []
 #   readOnly: true
 
 nodeSelector:
-  prometheus: true
+  nodetype: telemetry
 
 tolerations: []
 
